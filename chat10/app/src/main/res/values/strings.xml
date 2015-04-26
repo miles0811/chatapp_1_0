@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">chat10</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="admob_unit_id">ca-app-pub-3740636249983956/9823223024</string>
+
+    <!-- Global Text -->
+    <string name="text_progress_waiting">處理中，請稍候</string>
+
+    <!-- Chat -->
+    <string name="text_search">搜尋</string>
+    <string name="text_say_something">說些什麼</string>
+    <string name="text_say_send">送出</string>
+
+    <!-- Drawer Layout -->
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+
+</resources>

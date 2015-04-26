@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/ab_title"
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#55988F"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ab_negativ_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/normal"
+            android:background="@drawable/ab_button"
+            android:paddingLeft="@dimen/small"
+            android:paddingRight="@dimen/small"
+            android:textColor="@drawable/text_main_selector"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ab_drawerbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/normal"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/ab_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/normal"
+            android:background="@drawable/ab_button"
+            android:paddingLeft="@dimen/small"
+            android:paddingRight="@dimen/small"
+            android:textColor="@drawable/text_main_selector"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ab_imagebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/normal"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/ab_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/common_text" />
+    </RelativeLayout>
+
+</LinearLayout>

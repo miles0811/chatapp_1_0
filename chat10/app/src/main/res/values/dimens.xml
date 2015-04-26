@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="actionbar_divider">1dp</dimen>
+    <dimen name="small">5dp</dimen>
+    <dimen name="normal">10dp</dimen>
+    <dimen name="large">20dp</dimen>
+    <dimen name="mlarge">30dp</dimen>
+    <dimen name="xlarge">40dp</dimen>
+    <dimen name="xxlarge">60dp</dimen>
+    <dimen name="text_small">18sp</dimen>
+    <dimen name="text_normal">24sp</dimen>
+    <dimen name="text_large">32sp</dimen>
+
+</resources>

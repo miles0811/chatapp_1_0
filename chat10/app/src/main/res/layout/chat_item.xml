@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_chat_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_date"
+            android:gravity="center"
+            android:textColor="@color/gray_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_left_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="@dimen/normal" />
+
+        <TextView
+            android:id="@+id/tv_left_msg"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:layout_toRightOf="@+id/iv_left_image"
+            android:background="@drawable/bg_bubble_friend"
+            android:textColor="@color/gray_text"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_left_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tv_left_msg"
+            android:textColor="@color/light_gray_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_right_msg"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_bubble_me"
+            android:textColor="@color/gray_text"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_right_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tv_right_msg"
+            android:textColor="@color/light_gray_text" />
+    </RelativeLayout>
+
+</LinearLayout>

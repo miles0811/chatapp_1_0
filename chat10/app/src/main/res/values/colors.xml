@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_button">#f7f1ee</color>
+    <color name="bg_male">#a4deff</color>
+    <color name="bg_female">#ffa4b1</color>
+    <color name="common_text">#55988f</color>
+    <color name="gray_text">#3c4c4a</color>
+    <color name="light2_gray_text">#d5d5d5</color>
+    <color name="tab_background">#f7f1ee</color>
+    <color name="tab_text_press">#55988f</color>
+    <color name="tab_text_normal">#7f7f7f</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_date">#e2eae6</color>
+    <color name="light_gray_text">#747474</color>
+
+    <color name="black">#000000</color>
+
+    <!-- Chatroom -->
+    <color name="chatroom_background">#fdfbdc</color>
+
+    <!-- Random Color -->
+    <color name="random_1">#ffa4b1</color>
+
+</resources>
